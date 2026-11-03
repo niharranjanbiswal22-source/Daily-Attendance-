@@ -1,0 +1,1 @@
+function e(e,n){let r=t(n);return{start:new Date(e,r-1,1),end:new Date(e+1,r-1,0)}}function t(e){return!Number.isFinite(e)||e<1?1:e>12?12:Math.trunc(e)}export{e as t};

@@ -1,0 +1,1 @@
+import{d as e,f as t}from"./en-US-CJ8zEUjd.js";function n(n,r){let i=t(n);if(isNaN(r))return e(n,NaN);if(!r)return i;let a=i.getDate(),o=e(n,i.getTime());return o.setMonth(i.getMonth()+r+1,0),a>=o.getDate()?o:(i.setFullYear(o.getFullYear(),o.getMonth(),a),i)}export{n as t};

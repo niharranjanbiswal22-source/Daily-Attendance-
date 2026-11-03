@@ -1,0 +1,1 @@
+import{d as e}from"./en-US-CJ8zEUjd.js";function t(t){return e(t,Date.now())}export{t};

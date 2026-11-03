@@ -1,0 +1,1 @@
+var e={interview_pending:`info`,scheduled:`sky`,interview_scheduled:`sky`,interviewed:`secondary`,selected:`success`,offer_released:`sky`,offer_accepted:`success`,offer_declined:`destructive`,joined:`success`,resigned:`info`,relieved:`secondary`,rejected:`destructive`,converted:`sky`};function t(t){return e[t.trim().toLowerCase().replace(/[\s-]+/g,`_`)]??`secondary`}export{t};

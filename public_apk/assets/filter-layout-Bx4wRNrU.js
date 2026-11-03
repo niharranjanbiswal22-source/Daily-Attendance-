@@ -1,0 +1,1 @@
+var e=`grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2 [&_[data-slot=select-trigger]]:w-full [&_input]:w-full [&_[data-slot=button]]:w-full`,t=e.replace(`lg:grid-cols-2`,`lg:grid-cols-3`),n=e.replace(`lg:grid-cols-2`,`lg:grid-cols-5`),r=e.replace(`lg:grid-cols-2`,`lg:grid-cols-6`),i=`flex min-w-0 w-full flex-col gap-2`;export{t as a,e as i,n,r,i as t};

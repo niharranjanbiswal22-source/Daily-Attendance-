@@ -1,0 +1,1 @@
+import{cn as e}from"./index-al2ik5yk.js";function t({title:t,description:n,variant:r}){let i=!!(t&&n),a=String(t??n??``),o=i?{description:String(n)}:void 0;return r===`destructive`?e.error(i?String(t):a,o):r===`info`?e.info(i?String(t):a,o):r===`success`?e.success(String(n)):e(a,o)}function n(){return{toast:t,dismiss:t=>e.dismiss(t)}}export{n as t};

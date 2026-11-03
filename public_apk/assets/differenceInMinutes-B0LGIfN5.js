@@ -1,0 +1,1 @@
+import{o as e}from"./en-US-CJ8zEUjd.js";import{i as t,r as n}from"./formatDistanceToNow-Cz5XcdWH.js";function r(r,i,a){let o=n(r,i)/e;return t(a?.roundingMethod)(o)}export{r as t};
